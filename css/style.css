@@ -54,6 +54,10 @@ header {
     margin-left: 10px;
 }
 
+.link {
+    transition: box-shadow 0.7s;
+}
+
 .link:hover {
     font-weight: 600;
     border-bottom: 2px groove black;
@@ -102,6 +106,7 @@ header {
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: 700;
+    transition: 700ms;
 }
 
 .banner_text {
